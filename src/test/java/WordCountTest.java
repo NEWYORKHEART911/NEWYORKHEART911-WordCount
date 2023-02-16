@@ -23,6 +23,7 @@ public class WordCountTest {
         String input = "gorilla giraffe zebra penguin shark bear ostrich";
         int expected = 7;
         int actual = rwc.count(input);
+        Assert.assertEquals(expected,actual);
     }
 
     /**
@@ -33,5 +34,6 @@ public class WordCountTest {
         String input = "alpha bravo charlie";
         int expected = 3;
         int actual = rwc.count(input);
+        Assert.assertEquals(expected,actual);
     }
 }
