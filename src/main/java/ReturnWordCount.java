@@ -6,12 +6,12 @@ public class ReturnWordCount {
      */
     public int count(String in){
         char empty = ' ';
-        int counter = 0;
+        int counter = 1;
         for(int j=0; j<in.length(); j++) {
             if(in.charAt(j)==empty) {
                 counter++;
             }
         }
-        return counter+1;
+        return counter;
     }
 }
